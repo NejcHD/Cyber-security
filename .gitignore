@@ -1,0 +1,24 @@
+## .gitignore za C# / WPF projekte
+
+# Uporabniške in cache datoteke Visual Studio (.vs mapa)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Zgrajene datoteke in mape (Build Artifacts)
+# Te mape vsebujejo prevajano kodo (.exe, .dll), ki se ustvari ob zagonu
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Log datoteke in začasni podatki
+*.log
+*.tmp
+
+# Pripomočki za Visual Studio kode (če uporabljaš tudi VS Code)
+.vscode/
